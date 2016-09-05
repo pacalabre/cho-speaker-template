@@ -101,6 +101,9 @@ p {
 }
 
 @media only screen and (max-width: 650px) {
+  .header-img {
+    background-attachment: initial;
+  }
   .speaker-img {
     margin-right: auto;
     margin-left: auto;
