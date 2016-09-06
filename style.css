@@ -1,8 +1,9 @@
-@import 'https://fonts.googleapis.com/css?family=Raleway:600|Roboto:300|Roboto:100';
+@import 'https://fonts.googleapis.com/css?family=Roboto:300|Roboto:100';
 
-body{
+body {
   margin: 0px;
 }
+
 footer {
   margin: 0px;
 }
@@ -53,24 +54,6 @@ input {
   color: white;
   text-align: center;
   font-size: 30px;
-
-}
-
-.headline {
-  font-size: 40px;
-  text-align: center;
-}
-
-.event-details-section {
-  margin: 5% auto 0 auto;
-  display: block;
-  width: 41em;
-  font-family: roboto;
-  font-weight: 300;
-}
-
-.event-details-section-info-header {
-  font-size: 22px;
 }
 
 .bio-text-p {
@@ -93,24 +76,10 @@ input {
   margin: -1% 40% 4% 40%;
 }
 
-.submit-btn {
-  margin: 2% 40% 20px 20%;
-  background-color: white;
-}
-
 .btn:hover {
   color: white;
   background-color: #2c3e50;
   transition:1s;
-}
-
-.radio_button, input[type=radio] {
-  margin: 0px 20%;
-  font-size: 12px;
-}
-
-.label-button {
-  font-size: 20px;
 }
 
 .bio-text {
@@ -131,16 +100,8 @@ input {
   margin: -140px 20% 0px 30%;
 }
 
-
 .speaker-h3 {
   font-size: 20px;
-}
-
-.page_title {
-  text-align: center;
-  font-family: roboto;
-  font-weight: 300;
-  font-size: 40px;
 }
 
 .footer {
@@ -156,12 +117,9 @@ input {
   margin-top: 2%;
 }
 
-.footer-cho {
-  padding-top: 65px;
-  font-size: 12px;
-}
 
 @media only screen and (max-width: 900px) {
+
   .speaker-img {
     margin-left: 10%;
   }
@@ -173,30 +131,23 @@ input {
   .rsvp-btn {
     margin: 3% 40% 20px 40%;
   }
+
   .footer-img {
     margin-top: 3%;
   }
 }
 
+
 @media only screen and (max-width: 650px) {
+
   .header-img {
     background-attachment: initial;
   }
+
   .speaker-img {
     margin-right: auto;
     margin-left: auto;
     display: block;
-  }
-
-  .headline {
-    font-size: 30px;
-  }
-
-  .event-details-section {
-    width: 39em;
-  }
-  .event-details-section-info-header {
-    font-size: 25px;
   }
 
   .speaker-section {
@@ -215,14 +166,8 @@ input {
   }
 }
 
-@media only screen and (max-width: 550px) {
-  .headline {
-    font-size: 22px;
-  }
 
-  .event-details-section {
-    width: 30em;
-  }
+@media only screen and (max-width: 550px) {
 
   .bio-text-p {
     font-size: 15px;
@@ -237,10 +182,13 @@ input {
   }
 }
 
+
 @media only screen and (max-width: 450px) {
+
   label {
     font-size: 20px;
   }
+
   .rsvp-btn {
     margin: 200px 20% 12% 20%;
   }
@@ -248,25 +196,5 @@ input {
   .header-text {
     font-size: 18px;
   }
-
-  .headline {
-    font-size: 20px;
-  }
-
-  .event-details-section {
-    width: 25em;
-  }
-  .event-details-section-info-header {
-    font-size: 20px;
-  }
-
-  .event-details-section-info {
-    font-size: 15px;
-  }
-
-  .page-title {
-    font-size: 30px;
-  }
-
 }
 
