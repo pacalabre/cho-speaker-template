@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Raleway:600|Roboto:400|Source+Sans+Pro';
+@import 'https://fonts.googleapis.com/css?family=Raleway:600|Roboto:300|Roboto:100';
 
 body{
   margin: 0px;
@@ -8,7 +8,26 @@ footer {
 }
 
 p {
-  font-size: 15px;
+  font-size: 17px;
+  font-family: roboto;
+}
+
+label, input {
+  margin: 0px 20%;
+  width: 60%;
+}
+
+label {
+  font-size: 17px;
+  font-family: roboto;
+  font-weight: 100;
+  font-size: 30px;
+}
+
+input {
+  border-radius: 5px;
+  border: 1px solid;
+  font-size: 25px;
 }
 
 .header-img {
@@ -26,24 +45,58 @@ p {
 }
 
 .header-text-section {
-  padding: 10px;
+  margin-top: -2%;
 }
 
 .header-text {
   font-family: roboto;
   color: white;
   text-align: center;
+  font-size: 30px;
+
+}
+
+.headline {
+  font-size: 40px;
+  text-align: center;
+}
+
+.event-details-section {
+  margin: 5% auto 0 auto;
+  display: block;
+  width: 41em;
+  font-family: roboto;
+  font-weight: 300;
+}
+
+.event-details-section-info-header {
   font-size: 22px;
 }
 
-.btn {
-  border: solid #2c3e50;
-  color:#2c3e50;
-  font-size: 25px;
-  display: block;
-  margin: 2% 40% 20px 40%;
+.bio-text-p {
+  font-size: 17px;
+  font-family: roboto;
 }
 
+.btn {
+  border: solid thin #2c3e50;
+  color:#2c3e50;
+  padding: 8px 5px;
+  font-size: 25px;
+  display: block;
+  text-transform: uppercase;
+  font-family: roboto;
+  font-weight: 100;
+}
+
+.rsvp-btn {
+  margin: -1% 40% 4% 40%;
+}
+
+.submit-btn {
+  margin: 2% 40% 20px 20%;
+  background-color: white;
+}
 
 .btn:hover {
   color: white;
@@ -51,13 +104,17 @@ p {
   transition:1s;
 }
 
-.bio-text {
-  padding: 2% 10%;
+.radio_button, input[type=radio] {
+  margin: 0px 20%;
+  font-size: 12px;
 }
 
-.bio-text-p {
-  font-size: 17px;
-  font-family: source sans pro;
+.label-button {
+  font-size: 20px;
+}
+
+.bio-text {
+  padding: 2% 10%;
 }
 
 .list {
@@ -69,12 +126,21 @@ p {
 }
 
 .speaker-section {
+  font-family: roboto;
   float: right;
   margin: -140px 20% 0px 30%;
 }
 
+
 .speaker-h3 {
   font-size: 20px;
+}
+
+.page_title {
+  text-align: center;
+  font-family: roboto;
+  font-weight: 300;
+  font-size: 40px;
 }
 
 .footer {
@@ -100,6 +166,13 @@ p {
     margin-left: 10%;
   }
 
+  .header-text {
+    font-size: 25px;
+  }
+
+  .rsvp-btn {
+    margin: 3% 40% 20px 40%;
+  }
   .footer-img {
     margin-top: 3%;
   }
@@ -115,11 +188,26 @@ p {
     display: block;
   }
 
+  .headline {
+    font-size: 30px;
+  }
+
+  .event-details-section {
+    width: 39em;
+  }
+  .event-details-section-info-header {
+    font-size: 25px;
+  }
+
   .speaker-section {
     margin: 0px 15% 0px 20%;
   }
+
+  .speaker-name {
+    text-align: center;
+  }
   .rsvp-btn {
-    margin-top: 35%;
+    margin: 165px 30% 8% 30%;
   }
 
   .footer-img {
@@ -128,9 +216,16 @@ p {
 }
 
 @media only screen and (max-width: 550px) {
-  .btn {
-    margin-left: 30%;
-    margin-right: 30%;
+  .headline {
+    font-size: 22px;
+  }
+
+  .event-details-section {
+    width: 30em;
+  }
+
+  .bio-text-p {
+    font-size: 15px;
   }
 
   .rsvp-btn {
@@ -143,8 +238,35 @@ p {
 }
 
 @media only screen and (max-width: 450px) {
-  .rsvp-btn {
-    margin-top: 65%;
+  label {
+    font-size: 20px;
   }
+  .rsvp-btn {
+    margin: 200px 20% 12% 20%;
+  }
+
+  .header-text {
+    font-size: 18px;
+  }
+
+  .headline {
+    font-size: 20px;
+  }
+
+  .event-details-section {
+    width: 25em;
+  }
+  .event-details-section-info-header {
+    font-size: 20px;
+  }
+
+  .event-details-section-info {
+    font-size: 15px;
+  }
+
+  .page-title {
+    font-size: 30px;
+  }
+
 }
 
