@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Raleway:600|Roboto:400';
+@import 'https://fonts.googleapis.com/css?family=Raleway:600|Roboto:400|Source+Sans+Pro';
 
 body{
   margin: 0px;
@@ -53,6 +53,11 @@ p {
 
 .bio-text {
   padding: 2% 10%;
+}
+
+.bio-text-p {
+  font-size: 17px;
+  font-family: source sans pro;
 }
 
 .list {
