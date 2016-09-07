@@ -31,6 +31,8 @@ input {
   font-size: 25px;
 }
 
+/* HEADER STYLES */
+
 .header-img {
   background-image: url('dark_city_img.jpg');
   height: 400px;
@@ -56,9 +58,16 @@ input {
   font-size: 30px;
 }
 
-.bio-text-p {
-  font-size: 17px;
+/* SPEAKER ABOUT HEADER AND RSVP BUTTON */
+
+.speaker-section {
   font-family: roboto;
+  float: right;
+  margin: -140px 20% 0px 30%;
+}
+
+.speaker-h3 {
+  font-size: 20px;
 }
 
 .btn {
@@ -82,10 +91,6 @@ input {
   transition:1s;
 }
 
-.bio-text {
-  padding: 2% 10%;
-}
-
 .list {
   list-style: none;
 }
@@ -94,15 +99,18 @@ input {
   margin: 20px 20px 0px 15%;
 }
 
-.speaker-section {
-  font-family: roboto;
-  float: right;
-  margin: -140px 20% 0px 30%;
+/* ABOUT BODY STYLES */
+
+.bio-text {
+  padding: 2% 10%;
 }
 
-.speaker-h3 {
-  font-size: 20px;
+.bio-text-p {
+  font-size: 17px;
+  font-family: roboto;
 }
+
+/* FOOTER STYLES */
 
 .footer {
   height:100px;
